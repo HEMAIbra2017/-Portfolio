@@ -1,0 +1,274 @@
+
+/* Start navbar */
+nav {
+background-color: rgba(250, 250, 251,0.8);
+}
+
+ .navbar-brand , .nav-link{
+  text-transform: capitalize; color: rgba(0,0,0,.8);font-weight: bold;
+}
+
+ .navbar-brand:hover , .nav-link:hover{
+  color: #9136CE;background-color: rgba(252, 218, 107,0.8)
+ }
+/* End navbar */
+
+/* Start Home sec 1  */
+
+ img{
+background-size: contain;width: 1350px;height: 412px;
+}
+
+.text p {
+  z-index: 2;top:50;color: #000000
+}
+
+/* End Home sec 1  */
+
+/********** Start About ******************/
+#clientimg{
+width:220px; height:170px
+}
+
+#iconimg{
+width:32px; height:32px
+}
+#icontitle{
+text-decoration:none;color:#5A5A5A; font-family:Segoe UI;font-size:24px;
+}
+
+#About #header{
+color:#12141D; font-family:Segoe UI;font-size:30px;font-weight: bold;
+}
+
+#About #txt{
+color:#5A5A5A;font-family:Segoe UI;font-size:18px; font-weight:Semilight;
+}
+
+#experiencebtn{
+background-color:#9136CE; border-raduis:12;
+color: #ffffff;
+}
+
+#experiencebtn:hover{
+  background-color:#ffffff;
+  color: black;
+  border-color: #9136CE;
+  animation-timing-function: ease-in-out;
+}
+
+#Educationbtn{
+background-color:#ffffff; color:#000000; border-color:#9136CE; border-raduis:12
+}
+
+
+
+#Educationbtn:hover{
+  background-color:#9136CE;
+  color: #ffffff;
+  animation-timing-function: ease-in-out;
+
+}
+
+
+
+ #jobDetailes {
+background-color:#FAFAFB;
+border-radius:20px;
+ border-color:#000000;
+
+}
+
+#jobDetailes   .fw-bold{
+  font-family:Segoe UI; font-size:20px;color:#12141D;
+}
+
+#jobDetailes   .fw-semibold{
+color:#707070; font-family:Segoe UI; font-size:18px;
+}
+
+#jobDetailes   .fw-Regular{
+color:#5F73DB; font-family:Segoe UI; font-size:16px;
+}
+/********** End About ******************/
+
+/********** start  skills sec ******************/
+#Skills{
+  background-color: #FAFAFB;
+
+}
+/********** End  skills sec ******************/
+#servicesDetailes{
+  background-color: #ffffff;
+  border-radius: 14px
+}
+
+#servicesDetailes:hover {
+
+background-color: #C3E0F3;
+
+
+}
+#iconServicestitle{
+  font-size: 34px;
+  font-weight: bold;
+  font-family: Segoe UI;
+  color: #12141D
+}
+
+
+#servicesubtitle{
+color:  #12141D;
+font-size: 24px;
+  font-weight: bold;
+  font-family: Segoe UI;
+}
+
+#servicesubtitle span {
+  color: #9136CE;
+  font-size: 20px;
+    font-weight: bold;
+    font-family: Segoe UI;
+}
+
+
+#servicesDetailes {
+  color: #948D8D;
+  font-size: 20px;
+    font-weight: Regular;
+    font-family: Segoe UI;
+
+}
+
+#servicesDetailes #iconimg{
+width:64px; height:64px;
+z-index: 1;
+}
+
+#servicesDetailes #iconimg2{
+width:32px; height:32px;
+z-index: 2;
+position:fixed;}
+
+/*****************  Projects ***************************/
+
+
+ /*****************  Projects ***************************/
+
+.featured-work{padding: 100px 0}
+
+
+
+
+.featured-work ul{margin-top: 40px; margin-bottom: 50px}
+
+.featured-work ul li{
+   -webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	margin-left: 10px; cursor: pointer;
+	color: #08526d;
+   border: 2px solid #9136CE;
+    padding: 10px 20px;
+	 }
+
+.featured-work ul li.active, .featured-work ul li:hover{
+	border:2px solid #9136CE;
+    background-color: #9136CE;
+color: #FFFFFF}
+
+/* images */
+
+.featured-work .shuffle-images{
+
+	margin-top: 50px
+}
+
+.featured-work  .shuffle-imgs .row{margin:0;}
+
+.featured-work .shuffle-imgs .row.col-md{padding: 0}
+
+.featured-work .shuffle-imgs .col-md img{ width: 100% }
+
+/****************** Testimonial ****************************/
+
+#Testimonial{
+  width: 100%;
+  height: 650px;
+  background-color: #FAFAFB;
+
+}
+
+#carouselExampleCaptions{
+  margin-top: 50px
+}
+/*
+  #carouselExampleCaptions #carousel-item{
+    height: 300px
+  }
+*/
+  #carouselExampleCaptions #carousel-item .card-body img{
+   width: 50px;
+   height: 50px
+ }
+
+ #carouselExampleCaptions #carousel-item img{
+   width: 500px;
+   height: 500px
+ }
+
+  #carouselExampleCaptions .carousel-indicators button{
+background-color:#FD6C3D;
+width: 40px;
+height: 4px;
+
+ }
+
+ .carousel-control-prev-icon , .carousel-control-next-icon{
+  background-color:  #FD6C3D
+ }
+
+/***************** ContactUs **************************/
+
+#ContactUs{
+  height: 400px;
+  background-color: #FFFFFF;
+
+}
+
+
+#ContactUs ul li {
+ list-style-type: none;
+  margin-top: 15px;
+  padding-left: 5px;
+   color: #12141D;
+   font-size: 14px;
+   font-weight: bold;
+   font-family: Segoe UI;
+}
+#ContactUs ul li img {
+  width:24px; height:24px;
+}
+
+/**************** Footer *****************/
+
+#footer{
+  height: 200px;
+  width: 100%;
+  background-color: #12141D;
+  opacity: 0.67;
+
+}
+#footer ul li {
+ list-style-type: none;
+  margin-top: 15px;
+  padding-left: 5px;
+   color: #ffffff;
+   font-size: 14px;
+   font-weight: bold;
+   font-family: Segoe UI;
+}
+#footer ul li img {
+  width:24px; height:24px;
+}
+
+/************************ Responsive *******************************/
